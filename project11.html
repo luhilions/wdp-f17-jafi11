@@ -16,14 +16,13 @@
     width: 125px;
     height: 250px;
     border: solid blue 1px;
-    float: left;
+    
     }
     
     .sidebar {
     width: 125px;
     height: 250px;
     border: solid blue 1px;
-    float: right;
     }
     
     .main {
@@ -35,6 +34,18 @@
     height: 50px;
     border: solid red 1px;
     }
+      
+    .clearfloat {
+    clear: both;
+      }
+      
+    .floatleft {
+      float: left;
+      }
+      
+      .floatright {
+        float: right;
+      }
     
     </style>
     
@@ -43,8 +54,8 @@
   <body>
     
     <div class="header">Header</div>
-    <div class="nav">Nav Menu</div>
-    <div class="sidebar">Sidebar</div>
+    <div class="nav floatleft">Nav Menu</div>
+    <div class="sidebar floatright">Sidebar</div>
     <div class="main">Main Content</div>
     <div class="footer">Footer</div>
   </body>
