@@ -12,6 +12,23 @@
     font-family: Arial;
     }
     
+    .header {
+      height: 50px;
+      background-color: aqua;
+      padding: 2px 10px;
+      }
+      
+    .odd {
+      background-color: lime;
+      padding: 2px 10px;
+      text-align: center;
+      }
+      
+      .even {
+        background-color: yellow;
+        padding: 2px 10px;
+        text-align: center;
+      }
     
     </style
   </head>
@@ -19,15 +36,15 @@
   <body>
     <table>
     <tr><th>Description</th>
-    <th>Result</th></tr>
+    <th class="header">Result</th></tr>
     
-    <tr><td>Fraction 3/4</td><td>&frac34;</td></tr>
-    <tr><td>Copyright</td><td>&copy;</td></tr>
-    <tr><td>Ampersand</td><td>&amp;</td></tr>
-    <tr><td>Less Than</td><td>&lt;</td></tr>
-    <tr><td>Greater Than</td><td>&gt;</td></tr>
-    <tr><td>Division</td><td>&divide;</td></tr>
-    <tr><td><Spade</td><td>&spades;</td></tr>
+    <tr class="odd"><td>Fraction 3/4</td><td>&frac34;</td></tr>
+    <tr class="even"><td>Copyright</td><td>&copy;</td></tr>
+    <tr class="odd"><td>Ampersand</td><td>&amp;</td></tr>
+    <tr class="even"><td>Less Than</td><td>&lt;</td></tr>
+    <tr class="odd"><td>Greater Than</td><td>&gt;</td></tr>
+    <tr class="even"><td>Division</td><td>&divide;</td></tr>
+    <tr class="odd"><td>Spade</td><td>&spades;</td></tr>
     
     
     </table>
