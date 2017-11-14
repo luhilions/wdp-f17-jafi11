@@ -37,4 +37,6 @@
   left: 110px;
   z-index: 5;
   }
-  
+.gradient {
+  background-image: url('../images/gradient.jpg');
+}
